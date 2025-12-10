@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="04/26/23||23:18:59" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="HBOT2" uid="HBOT2" version="244">
+<AssemblyFile name="HBOT2.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Link1-1" uid="Link1-1" entityUid="Link1" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 -3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>0 -3.7379999999999929 0.07559999999998733</Translation>
+</Transform>
+<Instance name="Pillar-1" uid="Pillar-1" entityUid="Pillar*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.9999999999999991 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BeamSupport-2" uid="BeamSupport-2" entityUid="BeamSupport*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.684499999999999 1.7598999999999998 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Pillar-5" uid="Pillar-5" entityUid="Pillar*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-2.9999999999999991 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BeamSupport-9" uid="BeamSupport-9" entityUid="BeamSupport*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-3.3154999999999992 1.7599000000000002 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Beam-1" uid="Beam-1" entityUid="Beam*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.4999999999999998 1.7599000000000002 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="BeamSupport-10" uid="BeamSupport-10" entityUid="BeamSupport*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-2.6844999999999986 1.7599000000000007 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BeamSupport-1" uid="BeamSupport-1" entityUid="BeamSupport*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>3.3154999999999992 1.7598999999999998 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Beam-3" uid="Beam-3" entityUid="Beam*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-4.4999999999999991 1.7599000000000002 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Beam-2" uid="Beam-2" entityUid="Beam*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-1.4999999999999998 1.7599000000000002 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Rail-3" uid="Rail-3" entityUid="Rail*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-4.5 2.160900000000002 -0.2169999999999801</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Rail-1" uid="Rail-1" entityUid="Rail*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-4.5000000000000009 2.1608999999999998 0.21700000000000008</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+<Instance name="Link2-1" uid="Link2-1" entityUid="Link2" rigid="true">
+<Transform>
+<Rotation>1.04744440165294e-14 0 -1 1 1.04744440165294e-14 1.04744440165294e-14 1.04744440165294e-14 -1 0</Rotation>
+<Translation>-3.9656380271934988 -2.9999999999999862 2.7084999999999759</Translation>
+</Transform>
+<Instance name="Chariot-1" uid="Chariot-1" entityUid="Chariot*:*Default">
+<Transform>
+<Rotation>3.4914813388431337e-15 0 1 -6.9829626776862667e-15 -1 0 1 -6.9829626776862667e-15 -3.4914813388431334e-15</Rotation>
+<Translation>-0.73800000000000043 0.3170000000000015 -0.19149999999999512</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0" b="0" a="1"/>
+<Diffuse r="0.50196078431372548" g="0" b="0" a="1"/>
+<Specular r="0.25098039215686274" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="BeamSupport2-1" uid="BeamSupport2-1" entityUid="BeamSupport2*:*Default">
+<Transform>
+<Rotation>1.04744440165294e-14 6.9829626776862667e-15 1 0 -1 6.9829626776862667e-15 1 0 -1.04744440165294e-14</Rotation>
+<Translation>-0.73550000000000448 0.31699999999999484 -0.19149999999999201</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Beam2-2" uid="Beam2-2" entityUid="Beam2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.2246467991473532e-16 1 0 -1 1.2246467991473532e-16</Rotation>
+<Translation>2.9999999999999996 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Rail2-2" uid="Rail2-2" entityUid="Rail2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.2246467991473532e-16 1 0 -1 1.2246467991473532e-16</Rotation>
+<Translation>0 0.21569230769230785 -0.40100000000000025</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Rail2-3" uid="Rail2-3" entityUid="Rail2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -9.1293938586282276e-15 1 0 -1 -9.1293938586282276e-15</Rotation>
+<Translation>0 -0.2156923076923114 -0.40099999999999802</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Beam2-1" uid="Beam2-1" entityUid="Beam2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.2246467991473532e-16 1 0 -1 1.2246467991473532e-16</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="BeamSupport2-2" uid="BeamSupport2-2" entityUid="BeamSupport2*:*Default">
+<Transform>
+<Rotation>1.04744440165294e-14 -6.9829626776862667e-15 -1 0 -1 6.9829626776862667e-15 -1 0 -1.04744440165294e-14</Rotation>
+<Translation>6.7355000000000036 0.3169999999999531 -0.19149999999992939</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="MirrorChariot-4" uid="MirrorChariot-4" entityUid="MirrorChariot*:*Default">
+<Transform>
+<Rotation>3.4914813388431337e-15 0 1 -6.9829626776862667e-15 -1 0 1 -6.9829626776862667e-15 -3.4914813388431334e-15</Rotation>
+<Translation>6.7379999999999995 0.3170000000000015 -0.19150000000002132</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0" b="0" a="1"/>
+<Diffuse r="0.50196078431372548" g="0" b="0" a="1"/>
+<Specular r="0.25098039215686274" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+<Instance name="Link1-3" uid="Link1-3" entityUid="Link1" rigid="true">
+<Transform>
+<Rotation>-1 0 -6.9829626776862667e-15 -6.9829626776862667e-15 -3.4914813388431334e-15 1 0 1 3.4914813388431334e-15</Rotation>
+<Translation>-2.6513131428740771e-14 3.7379999999999867 0.075600000000012407</Translation>
+</Transform>
+<Instance name="Pillar-1" uid="Pillar-1" entityUid="Pillar*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.9999999999999991 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BeamSupport-2" uid="BeamSupport-2" entityUid="BeamSupport*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.684499999999999 1.7598999999999996 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Pillar-5" uid="Pillar-5" entityUid="Pillar*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-2.9999999999999991 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BeamSupport-9" uid="BeamSupport-9" entityUid="BeamSupport*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-3.3154999999999992 1.7599 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Beam-1" uid="Beam-1" entityUid="Beam*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.4999999999999996 1.7599 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BeamSupport-10" uid="BeamSupport-10" entityUid="BeamSupport*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-2.6844999999999986 1.7599000000000005 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BeamSupport-1" uid="BeamSupport-1" entityUid="BeamSupport*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>3.3154999999999992 1.7598999999999996 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Beam-3" uid="Beam-3" entityUid="Beam*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-4.4999999999999982 1.7599 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Beam-2" uid="Beam-2" entityUid="Beam*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-1.5 1.7599 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Rail-3" uid="Rail-3" entityUid="Rail*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-4.5 2.160900000000002 -0.2169999999999801</Translation>
+</Transform>
+</Instance>
+<Instance name="Rail-1" uid="Rail-1" entityUid="Rail*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-4.5 2.1609000000000007 0.21700000000000008</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Platform-1" visible="false" uid="Platform-1" entityUid="Platform*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Chariot2-1" uid="Chariot2-1" entityUid="Chariot2*:*Default">
+<Transform>
+<Rotation>1.3988810110276996e-14 1 -1.4063576548777777e-16 1 -1.3933298959045715e-14 1.0530428737138286e-14 1.051936315832336e-14 -1.8369701987224945e-16 -0.99999999999999989</Rotation>
+<Translation>-3.4096380271934312 2.5278707282504365 2.7111153846154181</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0" b="0" a="1"/>
+<Diffuse r="0.50196078431372548" g="0" b="0" a="1"/>
+<Specular r="0.25098039215686274" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="z beam-1" uid="z beam-1" entityUid="z beam*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 0 1 1 -3.4914813388431334e-15 3.4914813388431334e-15 3.4914813388431334e-15 1 0</Rotation>
+<Translation>-3.1576380271934759 2.5278707282504058 0.23101122023821707</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBOT2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBOT2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBOT2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link1-1</Uid>
+<Uid>Pillar-1</Uid>
+</InstancePath>
+<Position>0.32750000000000012 -0.075600000000000001 0.3125</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link1-1</Uid>
+<Uid>Beam-2</Uid>
+</InstancePath>
+<Position>1.4999999999999998 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBOT2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link1-1</Uid>
+<Uid>Rail-3</Uid>
+</InstancePath>
+<Position>9 0 -0.016999999999999904</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link2-1</Uid>
+<Uid>Chariot-1</Uid>
+</InstancePath>
+<Position>0.74504921825469062 -0.14749999999999996 0.23400000000000043</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link1-1</Uid>
+<Uid>Rail-3</Uid>
+</InstancePath>
+<Position>0 0.025999999999999801 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link2-1</Uid>
+<Uid>Chariot-1</Uid>
+</InstancePath>
+<Position>0.74504921825469062 -0.129 0.23400000000000043</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link2-1</Uid>
+<Uid>Rail2-2</Uid>
+</InstancePath>
+<Position>-4.4408920985006262e-16 0 0.015692307692307672</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chariot2-1</Uid>
+</InstancePath>
+<Position>0.47250100000002115 -0.14749999999999996 0.23399999999999999</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link2-1</Uid>
+<Uid>Rail2-2</Uid>
+</InstancePath>
+<Position>0 0.025999999999999801 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chariot2-1</Uid>
+</InstancePath>
+<Position>0.4725010000000216 -0.129 0.23399999999999999</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chariot2-1</Uid>
+</InstancePath>
+<Position>0.20500000000000007 0.040500000000001979 -0.4634999999999998</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>z beam-1</Uid>
+</InstancePath>
+<Position>0.20500000000000007 2.9200000000000004 -0.23000000000000043</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chariot2-1</Uid>
+</InstancePath>
+<Position>0.20499999999999963 0.021999999999999797 -0.4634999999999998</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>z beam-1</Uid>
+</InstancePath>
+<Position>0 0 -0.22999999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Platform-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link1-3</Uid>
+<Uid>Pillar-5</Uid>
+</InstancePath>
+<Position>-0.29749999999999988 -0.075600000000000014 0.18749999999999956</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link2-1</Uid>
+<Uid>MirrorChariot-4</Uid>
+</InstancePath>
+<Position>0.74504921825468928 -0.129 0.23400000000000043</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link1-3</Uid>
+<Uid>Rail-1</Uid>
+</InstancePath>
+<Position>0 0 0.016999999999999904</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link1-3</Uid>
+<Uid>Beam-2</Uid>
+</InstancePath>
+<Position>1.4999999999999998 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBOT2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link2-1</Uid>
+<Uid>Beam2-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBOT2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Link1" uid="Link1" version="216">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Link1.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Link2" uid="Link2" version="169">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Link2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Beam" uid="Beam*:*Default" version="1080">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Beam.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>542.99717259482543</Mass>
+<CenterOfMass>1.4999999999766271 0.20187934828363274 2.8688686765826645e-05</CenterOfMass>
+<Inertia>16.655713493151815 416.35713535298055 414.77028380237277 -0.0031252434331294826 -8.8377008983108756e-05 -2.5600850450855737e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Beam_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Beam2" uid="Beam2*:*Default" version="299">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Beam2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>542.99717250241372</Mass>
+<CenterOfMass>1.4999999999999998 0.20187928143233574 2.8621833023871622e-05</CenterOfMass>
+<Inertia>16.655713630900092 416.35716766461582 414.77025121290541 -0.0031253126952934442 8.5787561667610204e-15 -8.8389401130023292e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Beam2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.56862745098039214" g="0.56862745098039214" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.56862745098039214" g="0.56862745098039214" b="0.58823529411764708" a="1"/>
+<Specular r="0.39803921568627448" g="0.39803921568627448" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BeamSupport" uid="BeamSupport*:*Default" version="1491">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BeamSupport.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>11.629575064241671</Mass>
+<CenterOfMass>-0.00057921108426257516 -0.046652547541832998 2.1027916505334018e-08</CenterOfMass>
+<Inertia>0.45372365838378487 0.50943270216906034 0.090420852279053957 6.0283289599954951e-09 9.9345412018659406e-06 -0.00019464775323051702</Inertia>
+</MassProperties>
+<GeometryFile name="BeamSupport_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BeamSupport2" uid="BeamSupport2*:*Default" version="362">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BeamSupport2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>40.318655510598262</Mass>
+<CenterOfMass>1.4728304975093186e-05 0.18195989310719135 0.12367726950592994</CenterOfMass>
+<Inertia>3.3859641267304825 3.1512812741941651 1.7284384162087343 -0.77121504554305886 0.00012829990053384846 6.2206918051436813e-05</Inertia>
+</MassProperties>
+<GeometryFile name="BeamSupport2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Chariot" uid="Chariot*:*Default" version="1023">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Chariot.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>52.646985181331779</Mass>
+<CenterOfMass>0.040916210802532951 -0.064234468456728561 -0.006824386314969586</CenterOfMass>
+<Inertia>3.3536665977168547 7.7530823682123513 4.7728592395507459 0.0073108255432688734 0.16551076711795812 0.041817160894816796</Inertia>
+</MassProperties>
+<GeometryFile name="Chariot_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Chariot2" uid="Chariot2*:*Default" version="1048">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Chariot2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>62.615100937468483</Mass>
+<CenterOfMass>-0.032947899338533052 -0.035753537608757574 0.01868623552802455</CenterOfMass>
+<Inertia>4.2227581252868029 9.2083711805676316 6.0293537291847272 -0.25729678918183463 -0.23483809769772909 -0.065555357675176923</Inertia>
+</MassProperties>
+<GeometryFile name="Chariot2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MirrorChariot" uid="MirrorChariot*:*Default" version="252">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MirrorChariot.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>52.646985181331743</Mass>
+<CenterOfMass>0.040916210802532785 -0.064234468456728533 0.0068243863149696294</CenterOfMass>
+<Inertia>3.3536665977168627 7.7530823682123557 4.772859239550745 -0.0073108255432682498 -0.16551076711795915 0.041817160894816525</Inertia>
+</MassProperties>
+<GeometryFile name="MirrorChariot_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pillar" uid="Pillar*:*Default" version="416">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Pillar.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>58.272104583753062</Mass>
+<CenterOfMass>-8.9837979544847635e-16 0.83633640170575241 0.00015667001040543479</CenterOfMass>
+<Inertia>23.732306258296031 6.4763469012843169 23.510944907958852 0.0077037970301365539 -7.2486046886425172e-14 -2.4964680318813684e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Pillar_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Platform" uid="Platform*:*Default" version="154">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Platform.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>20519.591249999994</Mass>
+<CenterOfMass>0.1202499999999994 -0.12500000000000003 -0.19150000000000006</CenterOfMass>
+<Inertia>132827.76007268738 281141.09522041382 148527.08088991398 0 1.5704178778682321e-11 -4.8010581621405101e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Platform_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rail" uid="Rail*:*Default" version="154">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rail.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.9560000000000013</Mass>
+<CenterOfMass>4.5 0.013000000000000001 0</CenterOfMass>
+<Inertia>0.0012146160000000006 53.703766428000016 53.70344818800001 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rail_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rail2" uid="Rail2*:*Default" version="160">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rail2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.8960000000000008</Mass>
+<CenterOfMass>3 0.012999999999999999 0</CenterOfMass>
+<Inertia>0.00067768558579881703 14.6884018775858 14.688275808000002 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rail2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="z beam" uid="z beam*:*Default" version="266">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="z beam.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>87.167039540848634</Mass>
+<CenterOfMass>-0.003333802048696956 1.3923605431273454 -0.06146504302940696</CenterOfMass>
+<Inertia>69.216854656260807 5.2297161987009915 70.640656283607697 0.27795116019257138 -0.25567098318114079 -0.064195978553541228</Inertia>
+</MassProperties>
+<GeometryFile name="z beam_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.56862745098039214" g="0.56862745098039214" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.56862745098039214" g="0.56862745098039214" b="0.58823529411764708" a="1"/>
+<Specular r="0.39803921568627448" g="0.39803921568627448" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
