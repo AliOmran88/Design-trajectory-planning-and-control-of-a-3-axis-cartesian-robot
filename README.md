@@ -2,74 +2,74 @@
 
 ## 📌 Overview
 This project presents the **design**, **kinematic modelling**, and **dynamic simulation** of a **3-axis Cartesian Robot (HBOT)**.  
-The complete workflow includes mechanical design in **SolidWorks**, multibody modelling using **Simscape Multibody**, trajectory generation, and closed-loop control using **PID**. Additionally, a **Fuzzy Logic Controller** was explored to enhance joint-level performance.
+Workflows: mechanical design in **SolidWorks**, multibody modelling using **Simscape Multibody**, trajectory generation, and closed-loop control using **PID**. A **Fuzzy Logic Controller** was explored for enhanced joint-level performance.
 
-This work was completed as part of the Mechatronics coursework at **Egypt-Japan University of Science and Technology**.
+**Author:** Ali Gamal Ali — Egypt-Japan University of Science and Technology (E-JUST)
 
 ---
 
 ## 🚀 Key Features
 
-### 🔧 **1. Mechanical Design (SolidWorks)**
-- Full HBOT mechanical structure modelled and assembled.
-- Robot inspired by **Lucas Robotics 3-Axis Cartesian Robot**.
-- Exported as `.xml` for Simscape import.
-- Verified model using `smimport` in MATLAB.
-
-### 📐 **2. Kinematic Modelling**
-- **DH parameterization** presented for the 3-axis Cartesian robot.
-- Forward kinematics derived symbolically and verified in MATLAB.
-- Inverse kinematics computed analytically due to prismatic-only structure:
-
-\[
-d_1 = X,\; d_2 = Y,\; d_3 = Z
-\]
-
-- Transformation matrix validated through simulation.
-
-### 🧭 **3. Trajectory Planning**
-Three trajectory profiles were implemented:
-
-#### ➤ Linear trajectory  
-\[
-x_d = x_0 + v_x t;\quad y_d = y_0 + v_y t;\quad z_d = z_0 + v_z t
-\]
-
-#### ➤ Circular trajectory  
-\[
-x_d = x_0 + r\cos(\omega t);\quad y_d = y_0 + r\sin(\omega t);\quad z_d = z_0
-\]
-
-#### ➤ Parabolic trajectory  
-\[
-x_d = x_0 + v_x t + \frac{1}{2}at^2
-\]
-
-These trajectories were fed into IK → FK → error computation → controller pipeline.
-
-### 🎛️ **4. PID Control**
-- Independent PID controllers implemented for each prismatic joint.
-- Error between desired and actual end-effector pose minimized significantly after tuning.
-- Comparison plots show clear improvement with PID tuning.
-
-### 🤖 **5. Fuzzy Logic Controller (FLC)**
-- Fuzzy inference system designed for joint-level control.
-- Membership functions defined for:
-  - Error  
-  - Error derivative  
-  - Output control effort
-- Implemented in Simulink with rule base and inference engine.
-- Solver issues prevented full final execution, but the control architecture is fully set up.
+### 🔧 Mechanical Design (SolidWorks)
+- HBOT mechanical structure modelled and assembled.
+- Exported as `.xml` for Simscape import and verified using `smimport` in MATLAB.
 
 ---
 
-## 📊 Simulation Results
-- Imported Simscape model of HBOT successfully from SolidWorks.
-- Forward & inverse kinematics validated inside Simulink.
-- Trajectory tracking tested for circular profile with and without PID.
-- PID controller demonstrated significantly reduced position error.
-- Fuzzy logic controller prepared but not fully simulated due to solver limitations.
+## 📐 Kinematic Modelling
+
+All joints are **prismatic**, so inverse kinematics reduces to direct assignment of prismatic displacements from the end-effector Cartesian coordinates.
+
+**Inverse kinematics (prismatic joints):**
+
+`d_1 = X, d_2 = Y, d_3 = Z`.
+
+Forward kinematics and transformation matrices were derived and validated in MATLAB/Simulink.
 
 ---
 
-## 📁 Project Structure (Suggested)
+## 🧭 Trajectory Planning
+
+Three trajectory profiles were implemented. Each equation is shown as an image to ensure consistent rendering across GitHub viewers.
+
+### ➤ Linear Trajectory
+
+**Plain text fallback:** `x_d = x_0 + v_x t,  y_d = y_0 + v_y t,  z_d = z_0 + v_z t`
+
+---
+
+### ➤ Circular Trajectory
+
+
+**Plain text fallback:** `x_d = x_0 + r cos(ω t),  y_d = y_0 + r sin(ω t),  z_d = z_0`
+
+---
+
+### ➤ Parabolic Trajectory
+
+
+**Plain text fallback:** `x_d = x_0 + v_x t + 1/2 a t^2` (and similarly for `y_d`, `z_d` as needed)
+
+---
+
+## 🔁 Control Pipeline
+
+The pipeline used in simulations:
+
+**Trajectory → Inverse Kinematics → Forward Kinematics → Error calculation → Controller**
+
+When referencing small variables or inline code, I use monospace for clarity, e.g., `x_d`, `v_x`, `d_1`.
+
+---
+
+## 🎛️ PID Control
+- Independent PID controllers for each prismatic joint (`d1`, `d2`, `d3`).
+- Tuning produced a large reduction in end-effector tracking error.
+---
+
+## 🤖 Fuzzy Logic Controller (FLC)
+- FIS created with membership functions for `error`, `error_dot`, and `control_output`.
+- Implemented in Simulink. Architecture complete but full runs were limited by solver issues.
+
+---
+
